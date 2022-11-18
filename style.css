@@ -1,0 +1,143 @@
+body{
+    background-color: #d6d6d6;
+    background-image: url('/images/background.jpg');
+    background-repeat: repeat-x;
+    background-size: auto 90px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;    
+    line-height: 1.7;
+    margin: 0;
+}
+a{
+    color: #ff3300;
+    font-weight: 800;
+    text-decoration: none;
+}
+h3{
+    font-size: 18px;
+    margin-top: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+    margin: 0;
+    max-height: 250px;
+    text-align: center;
+    padding-top: 15px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+}
+.logo img {
+    max-height: 160px;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+.card-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article{
+    width: 73%;
+}
+aside{
+    width: 25%;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s;
+}
+.main-wrap{
+    background-color: #fff;
+    padding: 30px 20px;
+}
+aside ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+aside ul li{
+    font-weight: 600;
+}
+#img-group > img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+#img-group img:last-child {
+    margin: 0;
+}
+#socials{
+    text-align: center;
+    margin: 35px auto;
+}
+.comment{
+    padding: 5px 0;
+    border-bottom: 1px solid #000;
+    border-top: 1px dotted #000;
+    margin-bottom: 45px;
+}
+.comment:last-child{
+    margin-bottom: 25px;
+}   
+
+article img{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+article p {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+}
+
+article .comment{
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
